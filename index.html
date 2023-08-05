@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Caramel&family=Catamaran:wght@500&family=Cinzel:wght@600;700&family=Courgette&family=Kanit:wght@300&family=Montserrat:wght@600&family=Poppins&family=Titillium+Web:wght@300;400&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Caramel&family=Catamaran:wght@500&family=Cinzel:wght@600;700&family=Courgette&family=Kanit:wght@300&family=Lobster&family=Montserrat:wght@600&family=Poppins:wght@400;500&family=Titillium+Web:wght@300;400&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Shruti Pendem - Web Developer</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="nav-logo">
+            Shruti Pendem
+        </div>
+        <div class="nav-content">
+            <ul>
+                <li class="list-hover"><a href="#">Home</a></li>
+                <li class="list-hover"><a href="#skills">Skills</a></li>
+                <li class="list-hover"><a href="#">Projects</a></li>
+                <li class="list-hover"><a href="#">Acheivements</a></li>
+            </ul>
+        </div>
+        </nav>
+
+        <section class="hero-section">
+            <div class="hero-name">
+                Hi I am <span class="my-name">Shruti Pendem</span> 
+                <div>and I am a passionate </div>
+                <span id="element"></span>
+                <div class="resume-button-container">
+                    <button class="resume-button"> <a href="https://www.canva.com/design/DAFoY-kF9ZU/49ZCEL9BLxR_UGjB-Nbc9w/edit">Download my resume</a></button>
+                </div>
+            </div>
+            <div class="header-img">
+                <img src="images/hero-img.png" alt="">
+            </div>
+        </section>
+    </header>
+
+    <section class="skills-container" id="skills">
+        <div class="skills-heading">
+            <p>My Skills</p>
+        </div>
+        <div class="skills-item-main">
+            <div class="skills-item">
+                <div class="skills-info">
+                    <p>HTML</p>
+                    <p>90%</p>
+                </div>
+                <div class="skills-bar">
+                    <span class="bar" id="bar1"></span>
+                </div>
+            </div>
+            <div class="skills-item">
+                <div class="skills-info">
+                    <p>CSS</p>
+                    <p>80%</p>
+                </div>
+                <div class="skills-bar">
+                    <span class="bar" id ="bar2"></span>
+                </div>
+            </div>
+            <div class="skills-item">
+                <div class="skills-info">
+                    <p>Javascript</p>
+                    <p>70%</p>
+                </div>
+                <div class="skills-bar">
+                    <span class="bar" id="bar3"></span>
+                </div>
+            </div>
+            <div class="skills-item">
+                <div class="skills-info">
+                    <p>Bootstrap</p>
+                    <p>75%</p>
+                </div>
+                <div class="skills-bar">
+                    <span class="bar" id="bar4"></span>
+                </div>
+            </div>
+            <div class="skills-item">
+                <div class="skills-info">
+                    <p>React</p>
+                    <p>60%</p>
+                </div>
+                <div class="skills-bar">
+                    <span class="bar" id="bar5"></span>
+                </div>
+            </div>
+            <div class="skills-item">
+                <div class="skills-info">
+                    <p>Node JS</p>
+                    <p>50%</p>
+                </div>
+                <div class="skills-bar">
+                    <span class="bar" id="bar6"></span>
+                </div>
+            </div>
+            <div class="skills-item">
+                <div class="skills-info">
+                    <p>Express JS</p>
+                    <p>85%</p>
+                </div>
+                <div class="skills-bar">
+                    <span class="bar" id="bar7"></span>
+                </div>
+            </div>
+            <div class="skills-item">
+                <div class="skills-info">
+                    <p>Mongodb</p>
+                    <p>72%</p>
+                </div>
+                <div class="skills-bar">
+                    <span class="bar" id="bar8"></span>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
