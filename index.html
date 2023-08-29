@@ -1,53 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Caramel&family=Catamaran:wght@500&family=Cinzel:wght@600;700&family=Courgette&family=Kanit:wght@300&family=Montserrat:wght@600&family=Poppins&family=Titillium+Web:wght@300;400&family=Ubuntu&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Caramel&family=Catamaran:wght@500&family=Cinzel:wght@600;700&family=Courgette&family=Kanit:wght@300&family=Montserrat:wght@600&family=Poppins&family=Titillium+Web:wght@300;400&family=Ubuntu&display=swap"
+        rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Caramel&family=Catamaran:wght@500&family=Cinzel:wght@600;700&family=Courgette&family=Kanit:wght@300&family=Lobster&family=Montserrat:wght@600&family=Poppins:wght@400;500&family=Titillium+Web:wght@300;400&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Caramel&family=Catamaran:wght@500&family=Cinzel:wght@600;700&family=Courgette&family=DM+Serif+Display&family=Kanit:wght@300&family=Lobster&family=Montserrat:wght@600&family=Philosopher:wght@400;700&family=Poppins:wght@400;500&family=Roboto&family=Titillium+Web:wght@300;400&family=Ubuntu&display=swap" rel="stylesheet">    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Caramel&family=Catamaran:wght@500&family=Cinzel:wght@600;700&family=Courgette&family=Kanit:wght@300&family=Lobster&family=Montserrat:wght@600&family=Poppins:wght@400;500&family=Titillium+Web:wght@300;400&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="style.css">
 
     <title>Shruti Pendem - Web Developer</title>
 </head>
+
 <body>
     <header>
         <nav>
-        <div class="nav-logo">
-            Shruti Pendem
-        </div>
-        <div class="nav-content">
-            <ul>
-                <li class="list-hover"><a href="#">Home</a></li>
-                <li class="list-hover"><a href="#skills">Skills</a></li>
-                <li class="list-hover"><a href="#">Projects</a></li>
-                <li class="list-hover"><a href="#">Acheivements</a></li>
-            </ul>
-        </div>
+            <div class="nav-logo">
+                Shruti Pendem
+            </div>
+            <div class="nav-content">
+                <ul>
+                    <li class="list-hover"><a href="#">Home</a></li>
+                    <li class="list-hover"><a href="#about">About Me</a></li>
+                    <li class="list-hover"><a href="#skills">Skills</a></li>
+                    <li class="list-hover"><a href="#">Projects</a></li>
+                    <li class="list-hover"><a href="#">Acheivements</a></li>
+                </ul>
+            </div>
         </nav>
 
         <section class="hero-section">
             <div class="hero-name">
-                Hi I am <span class="my-name">Shruti Pendem</span> 
+                Hi I am <span class="my-name">Shruti</span>
                 <div>and I am a passionate </div>
                 <span id="element"></span>
                 <div class="resume-button-container">
-                    <button class="resume-button"> <a href="https://www.canva.com/design/DAFoY-kF9ZU/49ZCEL9BLxR_UGjB-Nbc9w/edit">Download my resume</a></button>
+                    <button class="resume-button"> <a href="https://drive.google.com/file/d/1VF26YokEch55iWl8AL7nxD31hT4SfRu3/view?usp=sharing">Download my resume</a></button>
                 </div>
             </div>
             <div class="header-img">
-                <img src="images/hero-img.png" alt="">
+                <img src="images/hero1.png" alt="img">
             </div>
         </section>
     </header>
+    <section class="my-bio about-height" id="about" >
+        <div class="my-bio-container">
+            <div class="skills-heading">
+                <p>About Me</p>
+            </div>
+            <div class="bio-text-main">
+                <div class="bio-img" data-aos="fade-right">
+                    <img src="images/photo.jpg" alt="img">
+                </div>
+                <div class="bio-text" data-aos="fade-left">
+                    <p class="para-1">I'm a passionate full stack developer who loves to discover and play with every tech stack</p>
+                    <p>a passionate and innovative Full Stack Developer with a keen eye for detail and a strong commitment
+                    to delivering high-quality solutions</p>
+                    <p>An adept and enthusiastic backend developer with a talent for building solid and scalable
+                    server-side solutions</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section class="skills-container" id="skills">
+    <section class="skills-container skills-height" id="skills">
         <div class="skills-heading">
             <p>My Skills</p>
         </div>
@@ -67,7 +101,7 @@
                     <p>80%</p>
                 </div>
                 <div class="skills-bar">
-                    <span class="bar" id ="bar2"></span>
+                    <span class="bar" id="bar2"></span>
                 </div>
             </div>
             <div class="skills-item">
@@ -125,15 +159,104 @@
                 </div>
             </div>
         </div>
-        
+        <div class="skills-icons">
+            <img src="images/html5.jpg">
+            <img src="images/CSS.png">
+            <img src="images/js.png">
+            <img src="images/Bootstrap.png">
+            <img src="images/react.png">
+            <img src="images/mongodb.png">
+            <img src="images/nodejs.png">
+        </div>
     </section>
 
+    <section class="my-bio project-width" id="projects">
+        <div class="skills-heading">
+            <p>My Projects</p>
+        </div>
+        <div class="project-content"data-aos="zoom-in-up">
+            <div class="project-card shadow">
+                <div class="project-name">ARK Studio</div>
+                <div class="project-description">A landing page developed with html and css</div>
+                <div class="resume-button-container">
+                    <button class="resume-button"> <a href="https://github.com/shrutipendem112/ARK_Studio.git">See Project</a></button>
+                </div>
+            </div>
+            <div class="project-card shadow" data-aos="zoom-in-up">
+                <div class="project-name">Stack</div>
+                <div class="project-description">A landing page developed with html and css</div>
+                <div class="resume-button-container">
+                    <button class="resume-button"> <a href="https://github.com/shrutipendem112/event_project.git">See Project</a></button>
+                </div>
+            </div>
+            <div class="project-card shadow" data-aos="zoom-in-up">
+                <div class="project-name">Netlix Landing Page</div>
+                <div class="project-description">A landing page developed with html and css</div>
+                <div class="resume-button-container">
+                    <button class="resume-button"> <a href="https://github.com/shrutipendem112/Netflix_Clone.git">See Project</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Achievements-container">
+        <div class="skills-content">
+            <div class="skills-heading">
+                <p>Achievements And Certifications</p>
+            </div>
+            <div class="project-content" data-aos="zoom-in-up">
+                <div class="achieve-card shadow">
+                    <img src="images/udemy.png" alt="images" class="aws-img">
+                    <div class="project-name">Fundamentals in Datastructures using C</div>
+                    <div class="project-description">A complete course in Datastructures</div>
+                </div>
+                <div class="achieve-card shadow" data-aos="zoom-in-up">
+                    <img src="images/aws.png" alt="images" class="aws-img">
+                    <div class="project-name">AWS Academy Cloud Foundations</div>
+                    <div class="project-description">A complete course and lab in AWS cloud foundations</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer" class="footer">
+        <div class="skills-heading">
+            <p>Reach Out To Me</p>
+        </div>
+        <div class="d-flex">
+            <div class="col">
+                <div class="nav-logo">
+                    Shruti Pendem
+                </div>
+                <p class="my-desc">I am a hardworking and consistent we developer</p>
+            </div>
+            <div class="col">
+                <h2>Get In Touch</h2>
+                <div class="add">
+                    <i class="fa-solid fa-address-book" style="color: #080a0c; padding-right: 1rem;"></i>
+                    <p>Kharas Building, NM Joshi marg, Mumbai-400013</p>
+                </div>
+                <div class="add">
+                    <i class="fa-regular fa-envelope" style="color: #13161b; padding-right: 1rem;"></i>
+                    <p>shrutipendem112@gmail.com</p>
+                </div>
+                <div class=" d-flex-content add">
+                    <i class="fa-solid fa-phone" style="color: #15181e; padding-right: 1rem;"></i>
+                    <p>8879687367</p>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; copyright</p>
+    </section>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Web Developer', 'Web Designer'],
-          typeSpeed: 50,
+            strings: ['Web Developer', 'Web Designer'],
+            typeSpeed: 50,
+            loop:true,
         });
+    </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
       </script>
 </body>
 </html>
